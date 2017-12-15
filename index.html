@@ -76,14 +76,17 @@
 				</div>
 			</div>
 		</header>
-		<main>
+		<main id="main">
 			<div class="green-line"></div>
 			<div class="container clearfix">
 				<div class="ordering-container">
-					<h3 class="ordering-title">Оформление заказа</h3> <span class="step-num">1</span>
+					<h3 class="ordering-title">Оформление заказа</h3> 
 					<div class="ordering">
-						<h2 class="cont-info-title">Контактные данные</h2>
+					<div class="step-info-cont">
+					<span class="step-num">1</span>
+						<h2 class="cont-info-title">Контактные данные</h2></div>
 						<p class="having-an-acc"> Уже есть аккаунт?<a href="#" class="ordering-join">Войдите</a> </p>
+						<div class="ordering-flex-cont">
 						<div class="form-ordering-container">
 							<form action="" class="form-ordering">
 								<h4 class="inp-title">E-mail</h4>
@@ -153,21 +156,15 @@
 							<div class="more"><a href="#">Еще</a></div>
 							<p class="sum">Всього: 100 159 00 грн</p>
 						</div>
-						<h3 class="step-num-sec-caption">Выберите способ доставки</h3>
-						<h3 class="step-num-thr-caption">Выберите способ оплаты</h3> </div> <span class="step-num-sec">2</span> <span class="step-num-thr">3</span> </div>
+						</div>
+						<div class="step-info-cont sec-step"><span class="step-num-sec">2</span><h3 class="cont-info-title">Выберите способ доставки</h3></div>
+						<br>
+						<div class="step-info-cont thr-step">
+						  <span class="step-num-thr">3</span>
+						<h3 class="cont-info-title">Выберите способ оплаты</h3> </div></div> </div>
 			</div>
 		</main>
-		<div id="footer">
-			<div class="partners">
-				<div class="container">
-					<a href="#" class="partners-itm e5p"></a>
-					<a href="#" class="partners-itm sweeden"></a>
-					<a href="#" class="partners-itm ec"></a>
-					<a href="#" class="partners-itm europe-bank"></a>
-					<a href="#" class="partners-itm iq-enner-mini"></a>
-					<a href="#" class="partners-itm kommunal-kredit"></a>
-				</div>
-			</div>
+		<footer id="footer">
 			<div class="social-and-ntwork container">
 				<div class="social-cont">
 					<a href="#" class="social-spr fb"></a>
@@ -222,7 +219,7 @@
 					</div>
 				</div>
 			</div>
-		</div>
+		</footer>
 	</div>
 	<script src="js/jquery-3.2.1.js"></script>
 	<script src="js/jquery.maskedinput.js"></script>
